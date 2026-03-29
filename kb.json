@@ -13,37 +13,6 @@
   "executors": {
     "supported": [
       {
-        "name": "Synapse Z",
-        "status": "not_recommended",
-        "type": "paid",
-        "link": "https://discord.gg/synz",
-        "aliases": [
-          "synapse z",
-          "synz",
-          "synapse",
-          "syn z",
-          "synapsez"
-          
-            ],
-            "reply": "Synapse Z is detected right now. Use it at your own risk. It is highly recommended to switch to a fully supported executor."
-          }
-        ]
-      },
-      {
-        "name": "Cosmic",
-        "status": "not_recommended",
-        "type": "paid",
-        "link": "https://discord.gg/getcosmic",
-        "aliases": [
-          "cosmic",
-          "cosmic executor"
-          
-        ],
-        "reply": "Cosmic is experimental and may work, but is not officially supported."
-      }
-    ]
-  },
-      {
         "name": "Isaeva",
         "status": "supported",
         "type": "paid",
@@ -102,6 +71,29 @@
     "temporarily_not_working": [],
     "not_recommended": [
       {
+        "name": "Synapse Z",
+        "status": "not_recommended",
+        "aliases": [
+          "synapse z",
+          "synz",
+          "synapse",
+          "syn z",
+          "synapsez"
+        ],
+        "reply": "Synapse Z is detected right now. Use it at your own risk. It is highly recommended to switch to a fully supported executor.",
+        "link": "https://discord.gg/synz"
+      },
+      {
+        "name": "Cosmic",
+        "status": "not_recommended",
+        "aliases": [
+          "cosmic",
+          "cosmic executor"
+        ],
+        "reply": "Cosmic is experimental and may work, but is not officially supported.",
+        "link": "https://discord.gg/getcosmic"
+      },
+      {
         "name": "Delta",
         "status": "not_recommended",
         "aliases": [
@@ -119,7 +111,7 @@
           "velo",
           "velocity executor"
         ],
-        "reply": "Velocity does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
+        "reply": "Velocity does not work fully -- projectiles crash. It is recommended to use a fully supported executor instead."
       },
       {
         "name": "Ronix",
@@ -128,7 +120,7 @@
           "ronix",
           "ronix executor"
         ],
-        "reply": "Ronix does not work fully — projectiles crash. It is recommended to use a fully supported executor instead."
+        "reply": "Ronix does not work fully -- projectiles crash. It is recommended to use a fully supported executor instead."
       },
       {
         "name": "Volt",
@@ -624,7 +616,7 @@
         "where is orbit aura",
         "where is anti aim"
       ],
-      "reply": "Here is where everything is located in the KiciaHook GUI:\n\n• **⚔️ Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\n• **👁️ Visuals:** ESP, Overrides, World, Players\n• **🔧 Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\n• **⚙️ Settings:** Keybinds, Auto Run Script, Configs"
+      "reply": "Here is where everything is located in the KiciaHook GUI:\\n\\n- **Combat:** Legitbot, Silent Aim, Triggerbot, Rage (Contains Orbit Aura & Anti Aim)\\n- **Visuals:** ESP, Overrides, World, Players\\n- **Misc:** Movement, Fly, Walkspeed, Slideboost, Auto Queue, Device Spoofer, Hitsounds, Weapons (Unlock All, No Spread, Anti Katata), Auto Loadout\\n- **Settings:** Keybinds, Auto Run Script, Configs"
     },
     {
       "id": "issue_17",
@@ -733,8 +725,8 @@
       "reply": "If you need to find your executor's workspace folder (usually to place a config), you can open it directly using the Windows Run menu:",
       "steps": [
         "Press **Windows Key + R** on your keyboard to open the Run window, or search 'Run' in the windows search bar.",
-        "For **Synapse Z**: Type `%localappdata%\\synapse z` and press Enter.",
-        "For **Yub X**: Type `%localappdata%\\yubx` and press Enter.",
+        "For **Synapse Z**: Type `%localappdata%\\\\synapse z` and press Enter.",
+        "For **Yub X**: Type `%localappdata%\\\\yubx` and press Enter.",
         "Once the folder opens, look for the **workspace** folder inside."
       ]
     },
