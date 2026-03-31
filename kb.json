@@ -775,3 +775,215 @@
     "unknown_reply": "This isn't a known issue in our documentation. Please ping a staff member for further assistance."
   }
 }
+{
+  "id": "issue_23",
+  "title": "Bought From Unverified Seller",
+  "category": "support_only",
+  "keywords": [
+    "fake seller",
+    "scammed",
+    "unverified reseller"
+  ],
+  "match_phrases": [
+    "i got scammed",
+    "seller not verified",
+    "bought from someone random"
+  ],
+  "cause": "Purchase made outside official reseller list.",
+  "reply": "If you bought from an unverified seller:",
+  "steps": [
+    "Check if the seller is listed in the official Discord.",
+    "If not, staff may not be able to help.",
+    "You can still open a ticket and provide proof.",
+    "Always buy from verified resellers only."
+  ],
+  "important_notes": [
+    "KiciaHook is not responsible for unofficial sellers.",
+    "Always verify before buying."
+  ]
+}
+{
+  "id": "issue_24",
+  "title": "Key Already Used / Not Valid",
+  "category": "support_only",
+  "keywords": [
+    "key already used",
+    "key invalid used",
+    "key doesnt work used"
+  ],
+  "match_phrases": [
+    "it says key already used",
+    "key is invalid but i just bought it",
+    "someone used my key"
+  ],
+  "cause": "Key was used before or shared.",
+  "reply": "If your key says already used:",
+  "steps": [
+    "Do NOT share your key with anyone.",
+    "Contact the reseller immediately.",
+    "Provide proof of purchase.",
+    "Open a Discord ticket if reseller does not respond."
+  ],
+  "important_notes": [
+    "Keys are usually one-time use.",
+    "Sharing keys can void support."
+  ]
+}
+{
+  "id": "issue_25",
+  "title": "Received Wrong Key",
+  "category": "support_only",
+  "keywords": [
+    "wrong key",
+    "invalid key from reseller",
+    "different key"
+  ],
+  "match_phrases": [
+    "they gave me the wrong key",
+    "this key doesnt work",
+    "i got wrong product"
+  ],
+  "cause": "Reseller mistake or wrong product delivered.",
+  "reply": "If you received the wrong key:",
+  "steps": [
+    "Contact the reseller you bought from.",
+    "Show proof of purchase and the key you received.",
+    "If no response, open a ticket in the Discord.",
+    "Provide screenshots and transaction details."
+  ],
+  "important_notes": [
+    "Only verified resellers should be trusted.",
+    "Staff will review proof before assisting."
+  ]
+}
+{
+  "id": "issue_26",
+  "title": "Bought But Did Not Receive Key / Product",
+  "category": "support_only",
+  "keywords": [
+    "didnt receive key",
+    "no key after payment",
+    "bought but nothing",
+    "payment but no product",
+    "didnt get product"
+  ],
+  "match_phrases": [
+    "i bought but didnt get anything",
+    "no key after buying",
+    "paid but no key",
+    "i didnt receive my product",
+    "bought but no access"
+  ],
+  "cause": "Payment delay or reseller issue.",
+  "reply": "If you purchased but didn’t receive your key:",
+  "steps": [
+    "Contact the reseller you bought from FIRST.",
+    "If no response, join the official Discord.",
+    "Go to the support/tickets section.",
+    "Create a ticket and provide proof of purchase (receipt, screenshot, transaction ID).",
+    "Wait for staff to review your case."
+  ],
+  "important_notes": [
+    "Only staff can resolve payment issues.",
+    "Always buy from verified resellers."
+  ]
+}
+{
+  "id": "issue_27",
+  "title": "Game Freezes When Executing Script",
+  "category": "executor",
+  "keywords": [
+    "freeze on execute",
+    "game freeze",
+    "freezes when injecting"
+  ],
+  "match_phrases": [
+    "game freezes when i execute",
+    "roblox froze after injecting",
+    "freeze on script"
+  ],
+  "cause": "Executor instability or heavy script load.",
+  "reply": "Freezing during execution is usually executor-related.",
+  "steps": [
+    "Execute the script in a private server.",
+    "Restart Roblox and your executor.",
+    "Delete the kiciahook folder in workspace.",
+    "Disable Auto Execute.",
+    "Use a supported executor."
+  ]
+}
+{
+  "id": "issue_28",
+  "title": "Random Anti-Cheat Kick",
+  "category": "ban",
+  "keywords": [
+    "random kick",
+    "anti cheat kick",
+    "kicked for no reason"
+  ],
+  "match_phrases": [
+    "i got kicked for no reason",
+    "anti cheat kicked me",
+    "random kick"
+  ],
+  "cause": "Executor detection or suspicious behavior.",
+  "reply": "Random kicks are usually anti-cheat related.",
+  "steps": [
+    "Execute it on a private server.",
+    "Switch to a supported executor.",
+    "Do not use multiple scripts together.",
+    "Rejoin and try again more safely."
+  ]
+}
+{
+  "id": "issue_29",
+  "title": "Valid Key But Says Invalid",
+  "category": "key_system",
+  "keywords": [
+    "key invalid but works",
+    "valid key invalid",
+    "key says invalid"
+  ],
+  "match_phrases": [
+    "my key is valid but says invalid",
+    "key not accepted",
+    "it says invalid key but its correct"
+  ],
+  "cause": "Expired session or executor issue.",
+  "reply": "If your valid key shows as invalid:",
+  "steps": [
+    "Get a fresh key and try again.",
+    "Restart Roblox and executor.",
+    "Make sure you pasted the key correctly.",
+    "Avoid using VPN if causing issues.",
+    "Wait a few minutes and retry."
+  ]
+}
+{
+  "id": "issue_30",
+  "title": "Executor Injection Failed / Attach Error",
+  "category": "executor",
+  "keywords": [
+    "inject failed",
+    "attach failed",
+    "cannot inject",
+    "failed to attach",
+    "inject error"
+  ],
+  "match_phrases": [
+    "failed to inject",
+    "cant attach executor",
+    "inject failed",
+    "attach error",
+    "executor wont inject"
+  ],
+  "cause": "Executor not properly attached or Roblox not fully loaded.",
+  "reply": "This is an executor injection issue, not KiciaHook.",
+  "steps": [
+    "Make sure Roblox is fully loaded into a game before injecting.",
+    "Run your executor as **Administrator**.",
+    "Reinstall or update your executor.",
+    "Disable antivirus if it's blocking injection.",
+    "Use a supported executor for best compatibility."
+  ]
+}
